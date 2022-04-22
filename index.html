@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "admin account bypass"</title>
+        <style>
+            
+            h1 {
+                text-align: center;
+                background-color:rgb(120,170,130);
+                font-family: serif;
+                color: rgb(241, 250, 190);
+            }
+            form {text-align: center;}
+           
+            .username{ 
+            text-align: center;
+            font-family: trebuchet MS;
+            }
+            
+            .input{
+            width: 30%;
+            float: center;}
+            .pswd{width: 30%;}
+            .pswrd{font-family: trebuchet MS;}
+            .productPhotos{width: 100%;}
+            .underPrrt{text-align: center; font-family: sans-serif;}
+        </style>
+    </head>
+    <body>
+    <h1>insert name.</h1>
+    
+    <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/birds_rainbow-lorakeets.png" class = 'productPhotos'>
+    <br/>
+    <p class = 'underPrrt'>nfts, memes, [currency name], all in one place.</p> <br/>
+   
+    <form>
+    <label for="pswd">Password:</label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+
+    </form>
+    <br/>
+    <script type = 'text/javascript'>
+        function checkPswd() {
+        var confirmPassword = "0a8uhg372";
+        var confirPassword = '7dneix8wq';
+        var confiPassword = '378dbi2n3';
+        var confPassword = '8snfiucye8s873rgbb3';
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword || password == confirPassword || password == confiPassword || password == confPassword) {
+             window.location="welcome.html";
+        }
+        else{
+            alert("incorrect :O ... nice try tho ~");
+        }
+    }
+
+    </script>
+    </body>
+</html>
